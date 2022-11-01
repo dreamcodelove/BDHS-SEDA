@@ -5,8 +5,7 @@ Github repository for Simplilearn Assessment Project #1
 
 **Objective**
 
-Use Hive features for data engineering or analysis and sharing the actionable
-insights.
+Use Hive features for data engineering or analysis and sharing the actionable insights.
 
 **Domain**
 
@@ -14,8 +13,7 @@ Banking, financial services and insurance
 
 **Analysis to be done**
 
-Exploratory analysis to understand how MoM or YoY companies from different
-sectors or industries and states have progressed in a period of 7 years.
+Exploratory analysis to understand how MoM or YoY companies from different sectors or industries and states have progressed in a period of 7 years.
 
 **Content**
 
@@ -41,14 +39,13 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 
 ## Analysis Tasks
 
-**Create a data pipeline using Sqoop to pull the data from the table below from
-MySql server to Hive.**
+### Create a data pipeline using Sqoop to pull the data from the table below from MySql server to Hive.
 
 - Database name: <username>
     - Stock_prices
     - Stock_companies
 
-*Stock_prices* Schema
+`Stock_prices` Schema
 
 | Column Name  | Datetype |
 |--------------|----------|
@@ -60,7 +57,7 @@ MySql server to Hive.**
 | High         | Double   |
 | Volume       | Int      |
 
-*Stock_companies* Schema
+`Stock_companies` Schema
 
 | Column Name   | Datatype |
 |---------------|----------|
