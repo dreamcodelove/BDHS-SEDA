@@ -76,8 +76,7 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 ![Quick view of data](./assets/images/02_dataset_quick_view.png)
 
 ```rgb(9, 105, 218)
-Both CSV files include header which is misinterpreted as record when
-importing to MySQL.
+Both CSV files include header which is misinterpreted as record when importing to MySQL.
 ```
 
 3. Delete top line from both CSV files
