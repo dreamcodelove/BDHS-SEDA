@@ -48,7 +48,7 @@ MySql server to Hive.**
     - Stock_prices
     - Stock_companies
 
-*Stock_prices*
+*Stock_prices* Schema
 
 | Column Name  | Datetype |
 |--------------|----------|
@@ -60,8 +60,12 @@ MySql server to Hive.**
 | High         | Double   |
 | Volume       | Int      |
 
-- Ticker_symbol: String
-- Company_name: String
-- Sector: String
-- Sub_industry: String
-- Headquarter: String
+*Stock_companies* Schema
+
+| Column Name   | Datatype |
+|---------------|----------|
+| Ticker_symbol | String   |
+| Company_name  | String   |
+| Sector        | String   |
+| Sub_industry  | String   |
+| Headquarter   | String   |
