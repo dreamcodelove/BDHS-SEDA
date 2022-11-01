@@ -39,7 +39,7 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 
 ## Analysis Tasks
 
-### Create a data pipeline using Sqoop to pull the data from the table below from MySql server to Hive.
+### 1. Create a data pipeline using Sqoop to pull the data from the table below from MySql server to Hive.
 
 - Database name: <username>
     - `Stock_prices`
@@ -55,7 +55,7 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 | `Close`        | Doble    |
 | `Low`          | Double   |
 | `High`         | Double   |
-| `Volume`       | Int      |
+| `Volume`       | Integer  |
 
 `Stock_companies` Schema
 
