@@ -54,7 +54,7 @@ to MySQL table.
 ```
 
 - Delete top line from both CSV files
-![Delete top line](./assets/images/03_delete_header_from_datasets.png).
+![Delete top line](./assets/images/03_delete_header_from_datasets.png)
 
 ## Analysis Tasks
 
