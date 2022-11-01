@@ -49,17 +49,13 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 
 
 **Note**
-```rgb(9, 105, 218)
 Both CSV files include header which is misinterpreted as a record when loading
 to MySQL table.
-```
 
 - Delete top lines containing header from both CSV files.
 
 **Note**
-```rgb(9, 105, 218)
 Modify user permissions for files and give them write access to edit files.
-```
 
 - Upload a copy of dataset files in dedicated HDFS directories.
 
