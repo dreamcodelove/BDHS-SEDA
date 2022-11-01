@@ -41,11 +41,12 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 
 **Steps to load data in MySQL**
 
-- Use FTP module from Simplilearn lab to upload data into lab.
-![Upload data via FTP](./assets/images/01_upload_data_via_ftp.png)
+- Download all required dataset files from simplilearn github link provided at bottom of simplilearn assessment page.
+
+- Extract the two CSV files in NYSE directory and use simplilearn lab's FTP module to upload datasets into lab.
 
 - Get quick view of data.
-![Quick view of data](./assets/images/02_dataset_quick_view.png)
+
 
 **Note**
 ```rgb(9, 105, 218)
@@ -53,8 +54,14 @@ Both CSV files include header which is misinterpreted as a record when loading
 to MySQL table.
 ```
 
-- Delete top line from both CSV files
-![Delete top line](./assets/images/03_delete_header_from_datasets.png)
+- Delete top lines containing header from both CSV files.
+
+**Note**
+```rgb(9, 105, 218)
+Modify user permissions for files and give them write access to edit files.
+```
+
+- Upload a copy of dataset files in dedicated HDFS directories.
 
 ## Analysis Tasks
 
