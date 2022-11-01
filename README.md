@@ -1,5 +1,5 @@
 # Stock Exchange Data Analysis
-Github repository for Simplilearn assessment project #1
+Github repository for Simplilearn Assessment Project #1
 
 ## Project Description 
 
