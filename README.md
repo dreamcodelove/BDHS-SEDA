@@ -1,6 +1,7 @@
 # Stock Exchange Data Analysis
+Github repository for Simplilearn assessment project #1
 
-## Simplilearn Assessment Project #1
+## Project Description 
 
 **Objective**
 
