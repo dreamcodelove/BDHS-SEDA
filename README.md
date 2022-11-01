@@ -1,6 +1,6 @@
 # Stock Exchange Data Analysis
 
-**Simplilearn Assessment Project #1**
+## Simplilearn Assessment Project #1
 
 **Objective**
 
