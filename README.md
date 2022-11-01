@@ -47,15 +47,9 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 
 - Get quick view of data.
 
-#### NOTE
-<p>Both CSV files include header which is misinterpreted as a record when loading to MySQL table.</p>
+- Both CSV files include header which is misinterpreted as a record when loading to MySQL table. Modify the user's permission and give write access to delete top lines containing header from both CSV files.
 
-- Delete top lines containing header from both CSV files.
-
-#### NOTE
-<p>Modify user permissions for files and give them write access to edit files.</p>
-
-- Upload a copy of dataset files in dedicated HDFS directories.
+- Upload a copy of data files in dedicated HDFS directories.
 
 ## Analysis Tasks
 
