@@ -67,7 +67,10 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 | `Sub_industry`  | String   |
 | `Headquarter`   | String   |
 
-**Load data in MySQL**
+**Steps to load data in MySQL**
 
 1. Load data to Simplilearn Lab via FTP.
 ![Upload data via FTP](./assets/images/01_upload_data_via_ftp.png)
+
+2. Quick view of data.
+![Quick view of data](./assets/images/02_dataset_quick_view.png)
