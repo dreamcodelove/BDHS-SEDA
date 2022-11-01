@@ -50,15 +50,15 @@ MySql server to Hive.**
 
 *Stock_prices*
 
-- Trading_date: Date
-- Symbol: String
-- Open: Double
-- Close: Double
-- Low: Double
-- High: Double
-- Volume: Int
-
-*Stock_companies
+| Column Name  | Datetype |
+|--------------|----------|
+| Trading_date | Date     |
+| Symbol       | String   |
+| Open         | Double   |
+| Close        | Doble    |
+| Low          | Double   |
+| High         | Double   |
+| Volume       | Int      |
 
 - Ticker_symbol: String
 - Company_name: String
