@@ -67,7 +67,5 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 | `Sub_industry`  | String   |
 | `Headquarter`   | String   |
 
-### Steps
-
 1. Load data to Simplilearn Lab via FTP.
 ![Upload data via FTP](./assets/images/01_upload_data_via_ftp.png)
