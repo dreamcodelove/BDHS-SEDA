@@ -1,27 +1,28 @@
 # Stock Exchange Data Analysis
+
 Github repository for Simplilearn Assessment Project #1
 
 ## Project Description 
 
-**Objective**
+### Objective
 
 Use Hive features for data engineering or analysis and sharing the actionable insights.
 
-**Domain**
+### Domain
 
 Banking, financial services and insurance
 
-**Analysis to be done**
+### Analysis to be done
 
 Exploratory analysis to understand how MoM or YoY companies from different sectors or industries and states have progressed in a period of 7 years.
 
-**Content**
+### Content
 
-This data set contains StockPrices.csv and Stockcompanies.csv files.
+This data set contains `StockPrices.csv` and `Stockcompanies.csv` files.
 
-**Data dictionary**
+### Data dictionary
 
-*StockPrices.csv*
+- `StockPrices.csv`
 
 | **Column Name** | **Description**                                   |
 |-----------------|---------------------------------------------------|
@@ -33,7 +34,7 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 | High            | Intra-day highest price for each listed company   |
 | Volume          | Number of shares traded per day per company       |
 
-*Stockcompanies.csv*
+- `Stockcompanies.csv`
 
 | **Column Name** | **Description**                                       |
 |-----------------|-------------------------------------------------------|
@@ -65,7 +66,9 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
     - `Stock_prices`
     - `Stock_companies`
 
-`Stock_prices` Schema
+### Schemas
+
+- `Stock_prices`
 
 |  Column Name   | Datetype |
 |----------------|----------|
@@ -77,7 +80,7 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 | `High`         | Double   |
 | `Volume`       | Integer  |
 
-`Stock_companies` Schema
+- `Stock_companies`
 
 |  Column Name    | Datatype |
 |-----------------|----------|
