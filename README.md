@@ -39,7 +39,7 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 
 ## Getting started
 
-**Steps to load data in MySQL**
+### Prepare data in MySQL table
 
 - Download all required dataset files from simplilearn github link provided at bottom of simplilearn assessment page.
 
@@ -47,15 +47,13 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 
 - Get quick view of data.
 
-
-**Note**
-Both CSV files include header which is misinterpreted as a record when loading
-to MySQL table.
+#### NOTE
+<p>Both CSV files include header which is misinterpreted as a record when loading to MySQL table.</p>
 
 - Delete top lines containing header from both CSV files.
 
-**Note**
-Modify user permissions for files and give them write access to edit files.
+#### NOTE
+<p>Modify user permissions for files and give them write access to edit files.</p>
 
 - Upload a copy of dataset files in dedicated HDFS directories.
 
