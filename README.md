@@ -38,3 +38,30 @@ This data set contains StockPrices.csv and Stockcompanies.csv files.
 - Sector: Business vertical of the listed company
 - Sub_Industry: Business domain of the listed company within a sector
 - Headquarter: Location of company headquarter
+
+## Analysis Tasks
+
+**Create a data pipeline using Sqoop to pull the data from the table below from
+MySql server to Hive.**
+
+- Database name: <username>
+    - Stock_prices
+    - Stock_companies
+
+*Stock_prices*
+
+- Trading_date: Date
+- Symbol: String
+- Open: Double
+- Close: Double
+- Low: Double
+- High: Double
+- Volume: Int
+
+*Stock_companies
+
+- Ticker_symbol: String
+- Company_name: String
+- Sector: String
+- Sub_industry: String
+- Headquarter: String
