@@ -48,15 +48,15 @@ This data set contains `StockPrices.csv` and `Stockcompanies.csv` files.
 
 ### Prepare data in MySQL table
 
-- Download all required dataset files from simplilearn github link provided at bottom of simplilearn assessment page.
+- Download all the required file(s) from link provided at bottom of simplilearn assessment page.
 
-- Extract the two CSV files in NYSE directory and use simplilearn lab's FTP module to upload datasets into lab.
+- Extract the compressed files and use simplilearn lab's FTP module to upload extracted files into lab.
 
-- Get quick view of data.
+- Both CSV files include header which is misinterpreted as a record when loading to MySQL. Modify the user's permission and give write access to delete top lines containing header from both CSV files.
 
-- Both CSV files include header which is misinterpreted as a record when loading to MySQL table. Modify the user's permission and give write access to delete top lines containing header from both CSV files.
+- Upload a copy of modified data files in two seperate HDFS directories.
 
-- Upload a copy of data files in dedicated HDFS directories.
+- Use Sqoop to load into MySQL.
 
 ## Analysis Tasks
 
