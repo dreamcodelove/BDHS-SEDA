@@ -55,12 +55,12 @@ This data set contains `StockPrices.csv` and `Stockcompanies.csv` files.
 - Both CSV files include header which is misinterpreted as a record when loading to MySQL. Modify the user's permission and give write access to delete top lines containing header from both CSV files.
 
 - Access MySQL to load data in their respective tables.
-```bash
+```Shell
 mysql -h database.bdh.com -u raicoldcharmgmail -p
 ```
 
 - Since lab does not provide permission to create new MySQL databases. We will use existing database and create two new tables.
-```sql
+```SQL
 SHOW DATABASES;
 
 USE raicoldcharmgmail;
