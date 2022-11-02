@@ -62,7 +62,11 @@ mysql -h database.bdh.com -u raicoldcharmgmail -p
 - Since lab does not provide permission to create new MySQL databases. We will use existing database and create two new tables.
 ```SQL
 SHOW DATABASES;
+```
+```SQL
 USE raicoldcharmgmail;
+```
+```SQL 
 CREATE TABLE stock_companies (
     date DATE,
     symbol VARCHAR(10)
@@ -71,6 +75,8 @@ CREATE TABLE stock_companies (
     low DOUBLE
     high DOUBLE
     volume DOUBLE);
+```
+```SQL
 CREATE TABLE stock_prices();
 ```
 
