@@ -1,26 +1,18 @@
 # Stock Exchange Data Analysis
 
-Github repository for Simplilearn Assessment Project #1
+Github repository for Simplilearn Assessment Project #1 by Ashish Rai
 
 ## Project Description 
 
-### Objective
+**Objective**: Use Hive features for data engineering or analysis and sharing the actionable insights.
 
-Use Hive features for data engineering or analysis and sharing the actionable insights.
+**Domain**: Banking, financial services and insurance
 
-### Domain
+**Analysis to be done**: Exploratory analysis to understand how MoM or YoY companies from different sectors or industries and states have progressed in a period of 7 years.
 
-Banking, financial services and insurance
+**Content**: This data set contains `StockPrices.csv` and `Stockcompanies.csv` files.
 
-### Analysis to be done
-
-Exploratory analysis to understand how MoM or YoY companies from different sectors or industries and states have progressed in a period of 7 years.
-
-### Content
-
-This data set contains `StockPrices.csv` and `Stockcompanies.csv` files.
-
-### Data dictionary
+**Data dictionary**:
 
 - `StockPrices.csv`
 
