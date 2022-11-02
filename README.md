@@ -83,7 +83,7 @@ CREATE TABLE stock_prices(
     headquarter VARCHAR(80) );
 ```
 ```mysql
-LOAD DATA LOCAL INFILE '/mnt/home/raicoldcharmgmail/data/Stockcompanies.csv' 
+LOAD DATA INFILE '/mnt/home/raicoldcharmgmail/data/Stockcompanies.csv' 
 INTO TABLE stock_companies 
 FIELDS TERMINATED BY ',' 
 LINES TERMINATED BY '\n' 
