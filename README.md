@@ -53,7 +53,7 @@ This data set contains `StockPrices.csv` and `Stockcompanies.csv` files.
 - Extract the compressed files and use simplilearn lab's FTP module to upload extracted files into lab.
 
 - Access MySQL to load data in their respective tables.
-```sh
+```shell
 mysql -h database.bdh.com -u raicoldcharmgmail -p
 ```
 
@@ -83,7 +83,11 @@ CREATE TABLE stock_prices(
     headquarter VARCHAR(80) );
 ```
 ```mysql
-LOAD DATA INFILE '/mnt/home/raicoldcharmgmail/data/Stockcompanies.csv' INTO TABLE stock_companies FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS
+LOAD DATA INFILE '/mnt/home/raicoldcharmgmail/data/Stockcompanies.csv' 
+INTO TABLE stock_companies 
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS
 ```
 
 ## Analysis Tasks
