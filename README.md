@@ -54,7 +54,7 @@ This data set contains `StockPrices.csv` and `Stockcompanies.csv` files.
 
 - Access MySQL to load data in their respective tables.
 ```console
-mysql -h database.bdh.com -u raicoldcharmgmail -p
+-bash-4.2$ mysql -h database.bdh.com -u raicoldcharmgmail -p
 ```
 
 - Since lab does not provide permission to create new MySQL databases. We will use existing database and create two new tables.
