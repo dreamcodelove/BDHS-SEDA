@@ -54,9 +54,11 @@ This data set contains `StockPrices.csv` and `Stockcompanies.csv` files.
 
 - Both CSV files include header which is misinterpreted as a record when loading to MySQL. Modify the user's permission and give write access to delete top lines containing header from both CSV files.
 
-- Upload a copy of modified data files in two seperate HDFS directories.
+- Access MySQL to load data in their respective tables
 
-- Use Sqoop to load into MySQL.
+```bash
+mysql -h database.bdh.com -u raicoldcharmgmail -p
+```
 
 ## Analysis Tasks
 
