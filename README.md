@@ -69,19 +69,19 @@ USE raicoldcharmgmail;
 ```SQL 
 CREATE TABLE stock_companies (
     date DATE,
-    symbol VARCHAR(10)
-    open DOUBLE
-    close DOUBLE
-    low DOUBLE
-    high DOUBLE
+    symbol VARCHAR(10),
+    open DOUBLE,
+    close DOUBLE,
+    low DOUBLE,
+    high DOUBLE,
     volume DOUBLE );
 ```
 ```SQL
 CREATE TABLE stock_prices(
     ticker_symbol VARCHAR(10),
-    security VARCHAR(80)
-    sector VARCHAR(80)
-    sub_industry VARCHAR(80)
+    security VARCHAR(80),
+    sector VARCHAR(80),
+    sub_industry VARCHAR(80),
     headquarter VARCHAR(80) );
 ```
 
