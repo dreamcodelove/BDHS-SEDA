@@ -38,7 +38,7 @@ Github repository for Simplilearn Assessment Project #1 by Ashish Rai
 
 ## Getting started
 
-### Load data in MySQL table
+**Load data in MySQL table**
 
 - Download all the required file(s) from link provided at bottom of simplilearn assessment page.
 
@@ -84,7 +84,7 @@ IGNORE 1 ROWS;
 
 ## Analysis Tasks
 
-### 1. Create a data pipeline using Sqoop to pull the data from the table below from MySql server to Hive.
+1. **Create a data pipeline using Sqoop to pull the data from the table below from MySql server to Hive.**
 
 - Database name: <username>
     - `Stock_prices`
