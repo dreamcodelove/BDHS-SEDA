@@ -74,10 +74,15 @@ CREATE TABLE stock_companies (
     close DOUBLE
     low DOUBLE
     high DOUBLE
-    volume DOUBLE);
+    volume DOUBLE );
 ```
 ```SQL
-CREATE TABLE stock_prices();
+CREATE TABLE stock_prices(
+    ticker_symbol VARCHAR(10),
+    security VARCHAR(80)
+    sector VARCHAR(80)
+    sub_industry VARCHAR(80)
+    headquarter VARCHAR(80) );
 ```
 
 ## Analysis Tasks
