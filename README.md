@@ -38,7 +38,7 @@ Github repository for Simplilearn Assessment Project #1 by Ashish Rai
 
 ## Getting started
 
-### Prepare data in MySQL table
+### Load data in MySQL table
 
 - Download all the required file(s) from link provided at bottom of simplilearn assessment page.
 
