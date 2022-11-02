@@ -46,6 +46,7 @@ Github repository for Simplilearn Assessment Project #1 by Ashish Rai
 ```shell
 head -5 ~/data/*
 ```
+![Quick view of original data](./assets/images/01_quick_view_of_original_data.png)
 ```shell
 sed -i '1d' *
 ```
