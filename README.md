@@ -52,8 +52,6 @@ This data set contains `StockPrices.csv` and `Stockcompanies.csv` files.
 
 - Extract the compressed files and use simplilearn lab's FTP module to upload extracted files into lab.
 
-- Both CSV files include header which is misinterpreted as a record when loading to MySQL. Modify the user's permission and give write access to delete top lines containing header from both CSV files.
-
 - Access MySQL to load data in their respective tables.
 ```Shell
 mysql -h database.bdh.com -u raicoldcharmgmail -p
@@ -83,6 +81,13 @@ CREATE TABLE stock_prices(
     sector VARCHAR(80),
     sub_industry VARCHAR(80),
     headquarter VARCHAR(80) );
+```
+```SQL
+LOAD DATA INFILE '/mnt/home/raicoldcharmgmail/data/Stockcompanies.csv'
+INTO TABLE stock_companies
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
 ```
 
 ## Analysis Tasks
