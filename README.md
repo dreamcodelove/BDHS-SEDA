@@ -92,9 +92,8 @@ IGNORE 1 ROWS;
 
 ### Schemas
 
-<table>
-<tr><th>`stock_prices`</th><th>`stock_companies`</th></tr>
-<td>
+- `stock_prices`
+
 |  Column Name   | Datetype |
 |----------------|----------|
 | `Trading_date` | Date     |
@@ -104,8 +103,9 @@ IGNORE 1 ROWS;
 | `Low`          | Double   |
 | `High`         | Double   |
 | `Volume`       | Integer  |
-</td>
-<td>
+
+- `stock_companies`
+
 |  Column Name    | Datatype |
 |-----------------|----------|
 | `Ticker_symbol` | String   |
@@ -113,4 +113,4 @@ IGNORE 1 ROWS;
 | `Sector`        | String   |
 | `Sub_industry`  | String   |
 | `Headquarter`   | String   |
-</td>
+
