@@ -48,8 +48,10 @@ head -5 ~/data/*
 ```
 ![Quick view of original data](/assets/images/01_quick_view_of_original_data.png)
 ```shell
-sed -i '1d' *
+sed -i '1d' ~/data/Stockcompanies.csv
+sed -i '1d' ~/data/StockPrices.csv
 ```
+![Delete header from csv data](/assets/images/02_delete_header_from_csv_data.png)
 
 - Load data files into seperate directories in HDFS.
 
