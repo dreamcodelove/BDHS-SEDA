@@ -92,7 +92,7 @@ IGNORE 1 ROWS;
 
 ### Schemas
 
-- `Stock_prices`
+- `stock_prices`
 
 |  Column Name   | Datetype |
 |----------------|----------|
@@ -104,7 +104,7 @@ IGNORE 1 ROWS;
 | `High`         | Double   |
 | `Volume`       | Integer  |
 
-- `Stock_companies`
+- `stock_companies`
 
 |  Column Name    | Datatype |
 |-----------------|----------|
