@@ -42,14 +42,20 @@ Github repository for Simplilearn Assessment Project #1 by Ashish Rai
 
 - Download all the required file(s) from link provided at bottom of simplilearn assessment page.
 
-- Extract the compressed files and use simplilearn lab's FTP module to upload extracted files into lab.
-
-- Access MySQL to load data in their respective tables.
-```bash
-mysql -h database.bdh.com -u raicoldcharmgmail -p
+- Extract the compressed files and use simplilearn lab's FTP module to upload extracted files into lab. The first lines in each files is a header which need to be removed.
+```shell
+head -5 ~/data/*
+```
+```shell
+sed -i '1d' *
 ```
 
-- Since lab does not provide permission to create new MySQL databases. We will use existing database and create two new tables.
+- Load data files into seperate directories in HDFS.
+
+- Start MySQL to load data in their respective tables. Since lab does not provide permission to create new MySQL databases. We will use existing database and create two new tables.
+```shell
+mysql -h database.bdh.com -u raicoldcharmgmail -p
+```
 ```mysql
 SHOW DATABASES;
 ```
@@ -74,13 +80,8 @@ CREATE TABLE stock_prices(
     sub_industry VARCHAR(80),
     headquarter VARCHAR(80) );
 ```
-```mysql
-LOAD DATA INFILE '/mnt/home/raicoldcharmgmail/data/Stockcompanies.csv' 
-INTO TABLE stock_companies 
-FIELDS TERMINATED BY ',' 
-LINES TERMINATED BY '\n' 
-IGNORE 1 ROWS;
-```
+
+- Use Sqoop to export data from HDFS to MySQL database.
 
 ## Analysis Tasks
 
